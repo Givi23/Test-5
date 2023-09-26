@@ -24,6 +24,9 @@ downBtn.addEventListener('click', ()=>{
 
 
 
-function changeSlide(direction){
+const btn = document.querySelectorAll('.btn')
+
+btn.addEventListener('click', () =>{
+    btn.classList.add('hide')
+})
     
-}
